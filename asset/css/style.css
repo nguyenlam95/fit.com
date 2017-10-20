@@ -1,0 +1,583 @@
+/* ==========================================================================
+   Nguyen Trong Nghia
+   ========================================================================== */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800);
+
+html, body {
+    overflow-x: hidden;
+}
+
+body {
+    font-size: 18px;
+    background: #fdfdfd;
+    font-family: "Roboto", Tahoma, Arial, Sans-Serif;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+form {
+    margin: 0
+}
+a {
+    color: #333;
+    cursor: pointer
+}
+a, a:focus {
+    outline: none;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+    color: #0076a1;
+}
+input, input:focus {
+    outline: none
+}
+#container .container {
+    max-width: 1300px;
+    height: auto;
+}
+#container .container-full {
+    max-width: 1300px;
+    height: auto;
+    padding: 0px 15px;
+    margin: auto;
+}
+body,h1,h2,h3,h4,h5,h6,p,a {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.clearfix{
+    clear: both;
+}
+
+/* HEADER */
+header{
+    background: #691b1d;
+}
+header .wrap-menu{
+    position: relative;
+    min-height: 90px;
+}
+header .wrap-menu h1{
+    padding: 20px 0px;
+    display: inline-block;
+}
+header .wrap-menu h1 img {
+    width: 100%;
+    padding-left: 40px;
+}
+
+/* menu-na */
+header .wrap-menu button span .icon-bar{
+    background: #691b1d;
+}
+header .wrap-mmenu button{
+    margin: 0px;
+    background: #fff568;
+}
+header .wrap-menu ul{
+    margin-bottom: 0px;
+    padding: 25px 80px;
+}
+header .wrap-menu ul li {
+    background: none;
+}
+header .wrap-menu ul li a {
+    border: none;
+    color: #fff;
+    padding: 10px 17px;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+header .wrap-menu ul li a:hover {
+    background: none;
+    color: #fff568;
+}
+header .hotline {
+    position: absolute;
+    top: 15px;
+    right: 0px;
+    padding-right: 40px;
+}
+/* MAIN */
+#wrap-banner, #wrap-product {
+    background: #691b1d;
+}
+.banner img {
+    width: 100%;
+    height: auto;
+}
+.wrap-product {
+    padding-top: 70px;
+}
+.wrap-product h3 {
+    color: #fff568;
+}
+.wrap-product hr {
+    background: #fff568;
+    float: left;
+}
+.wrap-product .wrap-info-product {
+    background: #4e0509;
+}
+
+.wrap-product #owl-products {
+    float: right;
+    width: 40%;
+}
+
+.wrap-product #owl-products .owl-item img {
+    width: 100%;
+    height: auto;
+}
+
+.wrap-product .owl-buttons {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.wrap-product .owl-next,
+.wrap-product .owl-prev {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.wrap-product .owl-next {
+    right: 15px;
+}
+
+.wrap-product .owl-prev {
+    left: 15px;
+}
+
+.wrap-product .info {
+    float: right;
+    width: 60%;
+    color: #691b1d;
+    background: #fff;
+}
+
+.wrap-product .info h5 {
+    font-size: 20px;
+    padding: 10px 15px;
+    background: #e1e1e1;
+    font-weight: bold;
+}
+
+.wrap-product .info .fa-tag {
+    margin-left: 30px;
+}
+
+.wrap-product .info p {
+    padding: 10px 15px;
+    border-bottom: 1px solid #691b1d;
+}
+
+.wrap-product .wrap-icon {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.wrap-product .wrap-icon img {
+    margin: 0px 32px 50px 32px;
+}
+
+.wrap-info h3,
+.wrap-feeling h3 {
+    font-size: 36px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.wrap-info h4 {
+    font-size: 32px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.wrap-product hr,
+.wrap-info hr,
+.wrap-feeling hr {
+    width: 95px;
+    height: 2px;
+    font-size: 0;
+    border: 0;
+}
+
+.wrap-info i,
+.wrap-feeling i {
+    font-size: 43px;
+}
+
+.wrap-info {
+    padding: 55px 120px 120px 120px;
+    text-align: center;
+}
+
+.wrap-info h3 {
+    color: #691b1d;
+}
+
+.wrap-info h4 {
+    color: #691b1d
+}
+
+.wrap-info hr {
+    background: #691b1d;
+}
+
+.wrap-info p {
+    margin-bottom: 26px;
+}
+
+.wrap-info {
+    color: #691b1d
+}
+
+#feeling {
+    background: #731b1d;
+    color: #ffffff;
+}
+
+.wrap-feeling {
+    padding: 60px 300px;
+}
+
+.wrap-feeling h3 {
+    color: #fff568;
+}
+
+.wrap-feeling hr {
+    background: #fff568;
+}
+
+.wrap-feeling {
+    text-align: center;
+}
+
+.wrap-feeling .owl-buttons {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.wrap-feeling .owl-next,
+.wrap-feeling .owl-prev {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-45px);
+}
+
+.wrap-feeling .owl-next {
+    right: 0;
+}
+
+.wrap-feeling .owl-prev {
+    left: 0;
+}
+
+.wrap-feeling .owl-carousel .item {
+    padding: 0px 60px;
+}
+
+.wrap-feeling .owl-carousel .item p.name {
+    margin-top: 25px;
+    font-weight: bold;
+}
+.wrap-comment{
+    background: #ebebeb;
+    padding:50px 50px 100px 50px;
+    overflow: hidden;
+}
+.wrap-comment .question{
+    border-radius:5%;;
+    background-color:#fff;
+    position:relative;
+    padding:60px 25px;
+    min-height:400px;
+    float:left;
+    width:47%;
+    margin: 15px;
+    
+}
+.wrap-comment .question h4{
+    color:#691b1d;
+    margin-top:50px;
+    margin-bottom:30px;
+}
+.wrap-comment .question p{
+    font-size:16px;
+    color:#959595;
+}
+.wrap-comment .question img{
+    position:absolute;
+    bottom:-15px;
+    right:70px;
+}
+
+
+.wrap-comment .answer{
+    border-radius:5%;;
+    background-color:#fff;
+    position:relative;
+    padding:60px 25px;
+    min-height:400px;
+    float:left;
+    width:47%;
+    margin: 15px;
+    
+}
+.wrap-comment .answer h4{
+    color:#691b1d;
+    margin-top:50px;
+    margin-bottom:30px;
+}
+.wrap-comment .answer p{
+    font-size:16px;
+    color:#959595;
+}
+.wrap-comment .answer img{
+    position:absolute;
+    bottom:-15px;
+    right:70px;
+}
+.member
+{
+    
+    position:absolute;
+    right:0px;
+    bottom:-80px;
+    
+}
+.member img
+{
+    width:80px;
+    height:80px;
+    float:right;
+    
+}
+.member .info-member
+{
+    text-align:right;
+    margin-right:170px;
+    
+}
+.wrap-comment .question .info-member p {
+    color: #691b1d;
+    font-weight: bold;
+ }
+ .wrap-comment .answer .info-member p {
+    color: #691b1d;
+    font-weight: bold;
+ }
+.email{
+    font-size: 14px;
+    font-style: italic;
+ }
+/* FOOTER*/
+footer {
+    background: #691b1d;
+    color: #fff;
+}
+
+footer .main-footer {
+    padding-top: 35px;
+}
+
+footer .main-footer h4 {
+    text-transform: uppercase;
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: bold;
+    background: #5c1315;
+    color: #f7f7f7;
+    padding: 12px 30px;
+    margin-bottom: 32px;
+}
+
+footer .main-footer h4 i {
+    float: right;
+}
+
+footer .main-footer .about-company p {
+    font-size: 14px;
+    margin-bottom: 32px;
+}
+
+footer .main-footer .about-company .contact i {
+    margin-right: 6px;
+}
+
+footer .main-footer .about-company .social {
+    margin-top: 44px;
+}
+
+footer .main-footer .about-company .social a {
+    color: #fff;
+    padding: 12px;
+    border: 1px solid #fff;
+    margin-right: 3px;
+    border-radius: 10px 0px 10px 0px;
+}
+
+footer .main-footer .about-company .social a:hover {
+    background: #fff;
+    color: #691b1d;
+}
+
+footer .main-footer .reference .item {
+    padding-bottom: 28px;
+    margin-bottom: 28px;
+    border-bottom: 1px solid #854749;
+}
+
+footer .main-footer .reference .item:last-child {
+    border: none;
+}
+
+footer .main-footer .reference .item img {
+    width: 84px;
+    height: 84px;
+    float: left;
+}
+
+footer .main-footer .reference .content {
+    padding-left: 100px;
+}
+
+footer .main-footer .reference .content h5 {
+    font-size: 18px;
+}
+
+footer .main-footer .reference .content p {
+    font-size: 14px;
+}
+
+footer .main-footer .form-contact input, footer .main-footer .form-contact  textarea {
+    margin-bottom: 10px;
+    border-radius: inherit;
+    border: 1px solid #b79495;
+    background: none;
+    font-size: 15px;
+    color: #fff;
+}
+
+footer .main-footer .form-contact {
+    margin-bottom: 28px;
+}
+
+footer .main-footer .form-contact button {
+    float: right;
+    background: none;
+    color: #fff;
+    text-shadow: none;
+    padding: 12px 0px;
+    width: 144px;
+}
+
+footer .copyright {
+    background: #5c1315;
+    text-align: center;
+    padding: 15px;
+}
+ /* ==========================================================================
+   Responsive CSS Landscape Tablet
+   ========================================================================== */
+@media only screen and (min-width: 960px) and (max-width: 1240px) {
+    #container .container-full {
+        width: 100%;
+    }
+    header .wrap-menu ul {
+        margin-bottom: 0px;
+        padding: 25px 0px;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    header .navbar-header {
+        width: 25%
+    }
+    header .hotline {
+        width: 25%;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    header .wrap-menu h1 img
+    {
+        width: 100%;
+        padding-left: 40px;
+    }
+    .wrap-comment .answer{
+        float: right;
+    }
+}
+/* ==========================================================================
+   Responsive CSS Portrait Tablet
+   ========================================================================== */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	
+#container .container-full {
+        width: 100%;
+    }
+
+    header .wrap-menu ul {
+        margin-bottom: 0px;
+        padding: 25px 0px;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    header .navbar-header {
+        width: 25%
+    }
+
+    header .hotline {
+        width: 25%;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    header .wrap-menu h1 img
+    {
+        width: 100%;
+        padding-left: 40px;
+    }
+      .wrap-comment .answer{
+        float: right;
+        margin: 80px;
+    }
+
+}
+/* ==========================================================================
+   Responsive CSS Landscape Mobile
+   ========================================================================== */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+#container .container-full {
+        width: 100%;
+    }
+ .wrap-comment .question{
+    width: 100%;
+    margin-top: 25px;
+    margin-bottom: 50px;
+ }
+
+ .wrap-comment .answer{
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 50px;
+ }
+}
+/* ==========================================================================
+   Responsive CSS Portrait Mobile
+   ========================================================================== */
+@media only screen and (min-width: 100px) and (max-width: 479px) {
+	
